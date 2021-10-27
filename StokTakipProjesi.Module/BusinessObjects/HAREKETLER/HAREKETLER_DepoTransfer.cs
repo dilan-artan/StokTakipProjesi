@@ -105,6 +105,7 @@ namespace StokTakipProjesi.Module.BusinessObjects.HAREKETLER
         protected override void OnSaving()
         {
             base.OnSaving();
+             // asdasd
 
             if (eskiStokID != null && eskiGirenDepoID != null && eskiCikanDepoID != null)
             {
