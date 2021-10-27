@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="StokTakipProjesi">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="HAREKETLER">
+        <Items>
+          <Item Id="HAREKETLER_DepoHareket_Detayi_ListView" Visible="False" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="21.2.1.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="21.2.1.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="21.2.1.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+  </Views>
+</Application>
