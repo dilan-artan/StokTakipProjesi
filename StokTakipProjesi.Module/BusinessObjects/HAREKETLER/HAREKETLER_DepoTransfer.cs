@@ -18,7 +18,8 @@ namespace StokTakipProjesi.Module.BusinessObjects.HAREKETLER
 {
     [DefaultClassOptions]
     [NavigationItem("HAREKETLER")]
-
+    [RuleCriteria("TransferMiktari", DefaultContexts.Save, "TransferMiktari > 0", "Miktar 0 dan büyük olmalı", SkipNullOrEmptyValues = false)]
+    
     public class HAREKETLER_DepoTransfer : BaseObject
     {
         public HAREKETLER_DepoTransfer(Session session)
