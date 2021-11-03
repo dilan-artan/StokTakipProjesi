@@ -63,6 +63,8 @@ namespace StokTakipProjesi.Module.BusinessObjects.HAREKETLER
             }
         }
 
+        
+
         private decimal _miktar;
         public decimal Miktar
         {
